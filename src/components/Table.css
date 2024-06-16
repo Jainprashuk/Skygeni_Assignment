@@ -1,0 +1,28 @@
+.custom-table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  .custom-table th,
+.custom-table td {
+  border: 1px solid #dddddd;
+  text-align: center; /* Center-align text */
+  padding: 3px 3px;
+  white-space: nowrap; /* Prevent line breaks */
+  /* overflow: hidden;  */
+  /* text-overflow: ellipsis; Show ellipsis for overflow text */
+}
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  
