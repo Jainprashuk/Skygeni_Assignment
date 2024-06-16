@@ -25,7 +25,7 @@ function App() {
     <>
       
       
-      <p>{time}</p>
+      {/* <p>{time}</p> */}
 
       {
         time<=5 ?
